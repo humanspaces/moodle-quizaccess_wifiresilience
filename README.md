@@ -8,7 +8,7 @@
 The Wifiresilience accessrule is designed to allow students to continue work on deferred-feedback quiz attempts even if the network connection goes down. For this purpose Wifiresilience makes use of localstorage. Stored answers can be accessed, synced to server and also be downloaded manually in case connection does not come back.
 
 Note:
-Wifiresilience is not designed for offline use per se. A working connection is required to start quizzes. Wifiresilience will intervene when connection breaks down.
+The functionality of wifi resilience plugin is restricted to question types which do not include connection to external systems. Examples of question types for which the functionality of the plugin are not working are qtype_stack or qtype_coderunner.
 
 The Wifiresilience accessrule is built on top of Quiz fault-tolerant mode (quizaccess_offlinemode) by Tim Hunt but adding additional features. Credits here go to Tim Hunt for creating Quiz fault-tolerant mode!
 
